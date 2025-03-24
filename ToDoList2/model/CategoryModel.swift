@@ -7,8 +7,9 @@
 
 import Foundation
 import UIKit
+//import RealmSwift, PersistableEnum
 
-enum CategoryModel: String, CaseIterable {
+enum CategoryModel: String, CaseIterable  {
     case work = "Work",
          exercise = "Exercise",
          study = "Study",

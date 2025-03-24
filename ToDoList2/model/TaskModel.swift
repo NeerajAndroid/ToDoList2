@@ -6,6 +6,7 @@
 //
 
 import Foundation
+//import RealmSwift
 
 struct TaskModel {
     var id: String
@@ -22,3 +23,12 @@ struct TaskModel {
         self.category = newCategory
     }
 }
+
+//class TaskObject: Object {
+//    @Persisted(primaryKey: true) var _id: String
+//    @Persisted var caption: String = ""
+//    @Persisted var category = CategoryModel.exercise
+//    @Persisted var isCompleted: Bool
+//    @Persisted var createdAt: Date
+//    
+//}

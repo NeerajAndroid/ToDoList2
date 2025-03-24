@@ -16,7 +16,7 @@ class RoundedCornerButton: UIButton {
         backgroundColor = .link
     }
     override func layoutSubviews() {
-        layer.cornerRadius = 8
+        layer.cornerRadius = 5
     }
 
 }

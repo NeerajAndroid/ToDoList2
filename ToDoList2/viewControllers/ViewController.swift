@@ -6,12 +6,14 @@
 //
 
 import UIKit
+//import RealmSwift
 
 class ViewController: UIViewController {
     
     @IBOutlet weak var titleContainerView: UIView!
     @IBOutlet weak var titleView: UILabel!
     var tasks: [TaskModel] = []
+    //let realm =  try! Realm()
     lazy var addButton: UIButton = {
         let button = UIButton(type: .custom)
         button.backgroundColor = .systemBlue
